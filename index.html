@@ -1,0 +1,418 @@
+<!DOCTYPE html><html class="dark" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>DocEdge | Dr. Muhammad Adil Yaseen - Hematology Specialist</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&amp;family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-bright": "#32394b",
+                        "on-surface-variant": "#bdcabc",
+                        "on-error-container": "#ffdad6",
+                        "on-tertiary-container": "#5210bc",
+                        "on-secondary-fixed-variant": "#004f58",
+                        "tertiary": "#d6c4ff",
+                        "inverse-surface": "#dce2f9",
+                        "outline-variant": "#3e4a3f",
+                        "on-secondary-fixed": "#001f24",
+                        "background": "#0c1323",
+                        "primary-fixed-dim": "#66dd8b",
+                        "on-error": "#690005",
+                        "surface-container-highest": "#2e3446",
+                        "error-container": "#93000a",
+                        "on-primary": "#003919",
+                        "error": "#ffb4ab",
+                        "surface-container-lowest": "#070e1e",
+                        "on-tertiary-fixed": "#23005c",
+                        "tertiary-fixed": "#e9ddff",
+                        "on-primary-fixed": "#00210c",
+                        "surface-container-low": "#141b2c",
+                        "on-secondary-container": "#00616d",
+                        "on-tertiary": "#3c0091",
+                        "outline": "#879487",
+                        "surface-container-high": "#232a3b",
+                        "surface-dim": "#0c1323",
+                        "on-primary-fixed-variant": "#005227",
+                        "tertiary-fixed-dim": "#d0bcff",
+                        "on-background": "#dce2f9",
+                        "on-surface": "#dce2f9",
+                        "inverse-on-surface": "#293041",
+                        "surface": "#0c1323",
+                        "surface-container": "#191f30",
+                        "secondary-container": "#00e3fd",
+                        "surface-variant": "#2e3446",
+                        "on-secondary": "#00363d",
+                        "on-primary-container": "#005025",
+                        "primary": "#6ee591",
+                        "primary-fixed": "#83fba5",
+                        "secondary": "#bdf4ff",
+                        "inverse-primary": "#006d36",
+                        "surface-tint": "#66dd8b",
+                        "on-tertiary-fixed-variant": "#5516be",
+                        "primary-container": "#50c878",
+                        "secondary-fixed": "#9cf0ff",
+                        "tertiary-fixed-dim": "#00daf3"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "stack-md": "32px",
+                        "margin-desktop": "48px",
+                        "gutter": "24px",
+                        "stack-lg": "80px",
+                        "stack-sm": "12px",
+                        "container-max": "1280px",
+                        "base": "8px",
+                        "container-padding-desktop": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-sm": ["Space Grotesk"],
+                        "label-md": ["Space Grotesk"],
+                        "body-lg": ["Outfit"],
+                        "headline-md": ["Space Grotesk"],
+                        "display-lg-mobile": ["Space Grotesk"],
+                        "display-lg": ["Space Grotesk"],
+                        "body-md": ["Outfit"]
+                    },
+                    "fontSize": {
+                        "headline-sm": ["24px", { "lineHeight": "1.4", "fontWeight": "600" }],
+                        "label-md": ["14px", { "lineHeight": "1.0", "letterSpacing": "0.05em", "fontWeight": "500" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "display-lg-mobile": ["40px", { "lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+                        "display-lg": ["64px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            background-color: #0c1323;
+            color: #dce2f9;
+            overflow-x: hidden;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.6);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(110, 229, 145, 0.1);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+        .glass-card:hover {
+            border: 1px solid rgba(110, 229, 145, 0.4);
+            box-shadow: 0 0 20px rgba(80, 200, 120, 0.15);
+        }
+        .neon-glow {
+            text-shadow: 0 0 10px rgba(110, 229, 145, 0.5);
+        }
+        .hero-mesh {
+            background-image: radial-gradient(at 0% 0%, rgba(110, 229, 145, 0.1) 0, transparent 50%),
+                              radial-gradient(at 100% 100%, rgba(0, 227, 253, 0.1) 0, transparent 50%);
+        }
+        .masonry-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-auto-rows: 10px;
+        }
+        .masonry-item {
+            grid-row-end: span 22;
+        }
+        .masonry-item-tall {
+            grid-row-end: span 32;
+        }
+    </style>
+</head>
+<body class="dark font-body-md text-body-md">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-surface/90 dark:bg-surface-container-high/90 backdrop-blur-md shadow-sm border-b border-outline-variant/30">
+<nav class="flex justify-between items-center px-container-padding-desktop py-4 max-w-[1200px] mx-auto">
+<div class="font-headline-md text-headline-md font-bold text-primary dark:text-inverse-primary">DocEdge / Dr. Adil</div>
+<div class="hidden md:flex items-center space-gap-stack-sm space-x-8">
+<a class="text-primary dark:text-inverse-primary font-bold border-b-2 border-primary pb-1 font-label-md text-label-md" href="#">Home</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#specialties">Specialties</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#about">About</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#availability">Availability</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="#testimonials">Testimonials</a>
+</div>
+<button class="bg-primary-container text-on-primary-container px-6 py-2 rounded-full font-label-md text-label-md font-bold scale-95 active:scale-90 transition-transform hover:bg-primary/90">
+                Book Appointment
+            </button>
+</nav>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center pt-24 overflow-hidden hero-mesh">
+<div class="absolute inset-0 z-0">
+<img alt="Advanced Laboratory" class="w-full h-full object-cover opacity-20 grayscale" data-alt="A futuristic medical laboratory environment viewed in cinematic wide angle. The scene features high-tech microscopic equipment and glowing blue data displays against a dark, nocturnal background. Subtle emerald green laser lines cut through the dim space, reflecting off polished glass surfaces. The lighting is moody and precise, emphasizing professional medical authority and scientific innovation in a cutting-edge dark mode aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7pshtI7Al1LzOypwXmK7cwf5EINgH_tNefAQ9ytrYy69hxSWn9aJ5twsrYVN4K1KgwysbhA5FCHorWC9OpI857UVUQ6mQmcbVGjqbsyvYB5M_ywpbTduFT7WThHdGLUxE1eXXWFrSVqqFkFdP-AJvt7Ca5DU9dyw2p33Jrf1MqvcHWtWzNV5Aiw4n3LWVNRMsEPHpByepj9vVSrNJfGFXhumG8TuYGArK8xdmatw_k4NbjpdHul73F02FfYMeA_NkRNMJpMO4tR0" style="transform: translateY(66.24px);">
+</div>
+<div class="relative z-10 max-w-[1200px] mx-auto px-container-padding-desktop w-full grid md:grid-cols-2 gap-12 items-center">
+<div class="space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+                        Hematology Specialist
+                    </div>
+<h1 class="font-display-lg text-display-lg text-on-surface leading-tight">
+                        Expert <span class="text-primary neon-glow">Hematologist</span> &amp; <br>
+                        Specialized Blood Care
+                    </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+                        Dr. Muhammad Adil Yaseen provides visionary blood condition management, bridging the gap between clinical excellence and cutting-edge laboratory science.
+                    </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="bg-primary text-on-primary px-8 py-4 rounded-xl font-headline-sm text-headline-sm transition-all hover:shadow-[0_0_20px_rgba(110,229,145,0.4)] hover:scale-105 active:scale-95">
+                            Consult Now
+                        </button>
+<button class="glass-card text-on-surface px-8 py-4 rounded-xl font-headline-sm text-headline-sm transition-all hover:bg-white/5 border border-primary/20">
+                            View Case Studies
+                        </button>
+</div>
+</div>
+<div class="hidden md:block">
+<div class="glass-card p-2 rounded-3xl relative overflow-hidden">
+<img alt="Dr. Muhammad Adil Yaseen" class="rounded-2xl w-full aspect-[4/5] object-cover" data-alt="A professional portrait of Dr. Muhammad Adil Yaseen, a confident hematology specialist, wearing a modern dark-toned medical uniform. He stands in a high-tech diagnostic lab setting with subtle holographic charts floating in the background. The lighting is focused and dramatic, highlighting his expertise and authoritative presence. The color palette is dominated by deep blues and vibrant emerald green accents, maintaining a premium dark mode feel." src="https://lh3.googleusercontent.com/aida/ADBb0ugrUzIH1l7hhT65EEJIk1K4VgyzsJjYeqUa8jtu2YfqADVBpQGmcd8NKXHQJOzAGxokgLoV1w7Dk5w-qHHfoCBGAwn3nF0VKes81dKxixYpCuoXmTLoo573deLOFr_2-UPFNxFInH8VQWab32BEvzfaMONldronUxPq4wTcRfbWNstg4KotTxffb4pYTZZOBCZGIRExDyH1CHUKVkPAbpiWsxPoEaP3MgnfysPNfJZ5s5zpxBKYLT9_fyspNwUqdmNfufiDXK9CfQ">
+<div class="absolute bottom-6 left-6 right-6 glass-card p-6 rounded-2xl border-t border-white/10">
+<div class="flex items-center justify-between">
+<div>
+<p class="font-headline-sm text-headline-sm text-primary">15+ Years</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Clinical Experience</p>
+</div>
+<div class="w-px h-10 bg-outline-variant/30"></div>
+<div>
+<p class="font-headline-sm text-headline-sm text-secondary">5000+</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Patients Managed</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Specialties Section (Masonry) -->
+<section class="py-stack-lg max-w-[1200px] mx-auto px-container-padding-desktop" id="specialties">
+<div class="text-center mb-16 space-y-4">
+<h2 class="font-display-lg-mobile text-display-lg-mobile text-on-surface">Medical <span class="text-primary">Specialties</span></h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Advanced diagnostics and personalized management for complex hematological disorders.</p>
+</div>
+<div class="masonry-grid gap-6">
+<!-- Item 1 -->
+<div class="masonry-item glass-card p-8 rounded-3xl flex flex-col gap-4">
+<span class="material-symbols-outlined text-primary text-4xl" data-icon="bloodtype">bloodtype</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Anemia Management</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Comprehensive investigation and treatment of iron deficiency, Vitamin B12 deficiency, and complex chronic anemias.</p>
+<a class="text-primary flex items-center gap-2 mt-auto font-label-md text-label-md hover:underline" href="#">
+                        Learn More <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+<!-- Item 2 - Tall -->
+<div class="masonry-item-tall glass-card p-8 rounded-3xl flex flex-col gap-4">
+<span class="material-symbols-outlined text-secondary text-4xl" data-icon="microscope">magnification_small</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Hematologic Oncology</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Expertise in diagnosing and managing leukemia, lymphoma, and multiple myeloma using the latest molecular diagnostic protocols.</p>
+<img alt="Molecular Analysis" class="rounded-xl mt-4 grayscale hover:grayscale-0 transition-all" data-alt="A close-up view of a high-resolution microscopic image showing cellular structures under luminous emerald green and cyan fluorescent staining. The image captures the intricate details of hematological analysis within a dark, scientific context. The aesthetic is clean, sharp, and highly technical, reflecting the advanced diagnostic capabilities of a visionary medical practice." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAP5nlnxF8aBls8QKfn0GQvcJt0u0OYDBIatYMaycSGO-CJX5UqvE00Hkhwtx6TUeFXVcT6x7Mh0SWsRnF_A9OoPzSXHO3Pj6FqdhjnswIWZ7J60yo42Gj9r_eBwvotAWO10gn_PJYqySetvWJy3ILW43R3NkeAwJ-waIYRLY674nBYS5pqhPg2fjmAbHAWUjooxWvi7Admb4xGs-OdOd2crYyqMjHu6Wf-kNeeR2yju3T04zi_I2VodM9muphsU3kG5gez7NvDuek">
+</div>
+<!-- Item 3 -->
+<div class="masonry-item glass-card p-8 rounded-3xl flex flex-col gap-4">
+<span class="material-symbols-outlined text-primary text-4xl" data-icon="emergency">emergency</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Coagulation Disorders</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Management of hemophilia, von Willebrand disease, and complex thrombophilic conditions with precision monitoring.</p>
+</div>
+<!-- Item 4 -->
+<div class="masonry-item glass-card p-8 rounded-3xl flex flex-col gap-4">
+<span class="material-symbols-outlined text-secondary text-4xl" data-icon="lab_panel">lab_panel</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Lab Consultations</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">In-depth interpretation of bone marrow biopsies, flow cytometry, and genetic blood testing for referring physicians.</p>
+</div>
+</div>
+</section>
+<!-- Bio / About Section -->
+<section class="py-stack-lg bg-surface-container-low/50 relative" id="about">
+<div class="max-w-[1200px] mx-auto px-container-padding-desktop grid md:grid-cols-2 gap-16 items-center">
+<div class="relative group">
+<div class="absolute -inset-4 bg-primary/20 blur-2xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<img alt="Medical Professional" class="relative rounded-[2rem] shadow-2xl grayscale hover:grayscale-0 transition-all border-2 border-outline-variant/30" data-alt="An artistic black and white photograph of a medical professional's hands carefully holding a high-end microscope slide against a soft glow of green laboratory light. The scene captures the precision and dedication of a specialist at work. The lighting is dramatic, with high contrast, reinforcing the dark mode authority style of the brand." src="https://lh3.googleusercontent.com/aida-public/AB6AXuANs3-F8q8mNmKZEfA2YdJSVd1VNfoBqDzkojc3Ckh5icEF6r8aIXfOdEC-qZOckU_Hp_d_4A422u2vIJ3BJuMivIUtWirlf6PFYNJ5NY-0rlg7tNc2HAX6V-0yj2_C17jWq4WM3JhuRpo5pEdri71dp4PqJg_RXB4KEODtS8CqGgXunyrRh2veKe_vHsiFarYgCavz0wqo_F0EY8upF0iQnrQZ0utY2MDyzPxr7vWz5q4vuZA8ItMbPWP6S6Jzd_lQoiqpQUGEBfI">
+</div>
+<div class="space-y-6">
+<h2 class="font-headline-md text-headline-md text-primary">Dr. Muhammad Adil Yaseen</h2>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">The Visionary in Hematology</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                        With over 15 years of dedicated practice, Dr. Adil has established himself as a leading authority in blood disorders. His approach integrates advanced molecular diagnostics with compassionate, patient-centered care. 
+                        <br><br>
+                        He serves as a senior consultant at the regional Hematology Institute, where he leads the clinical research team focusing on innovative treatments for chronic myeloid disorders. His commitment to excellence is reflected in every consultation, ensuring that each patient receives a precise roadmap to recovery.
+                    </p>
+<div class="grid grid-cols-2 gap-4 pt-4">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="school">school</span>
+<span class="font-label-md text-label-md">Fellow of Royal College</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="award_star">award_star</span>
+<span class="font-label-md text-label-md">Best Specialist 2023</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-stack-lg max-w-[1200px] mx-auto px-container-padding-desktop" id="testimonials">
+<div class="flex justify-between items-end mb-12">
+<div class="space-y-2">
+<h2 class="font-headline-md text-headline-md text-on-surface">Patient Success</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Real stories of recovery and clinical excellence.</p>
+</div>
+<div class="flex gap-2">
+<button class="p-3 rounded-full border border-outline-variant/30 hover:bg-primary/10 hover:border-primary transition-all">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="p-3 rounded-full border border-outline-variant/30 hover:bg-primary/10 hover:border-primary transition-all">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="grid md:grid-cols-3 gap-6">
+<!-- Review 1 -->
+<div class="glass-card p-8 rounded-3xl border-t-4 border-t-primary">
+<div class="flex gap-1 text-primary mb-4">
+<span class="material-symbols-outlined fill" data-icon="star" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined fill" data-icon="star" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined fill" data-icon="star" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined fill" data-icon="star" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined fill" data-icon="star" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+</div>
+<p class="font-body-md text-body-md italic text-on-surface-variant mb-6">"Dr. Adil diagnosed my rare condition when three other clinics failed. His technical knowledge is unmatched, but it's his patience that truly stands out."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center font-bold text-primary">SH</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface">Sarah Harrison</p>
+<p class="text-xs text-on-surface-variant">Chronic Anemia Patient</p>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="glass-card p-8 rounded-3xl">
+<div class="flex gap-1 text-primary mb-4">
+<span class="material-symbols-outlined fill" data-icon="star" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined fill" data-icon="star" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined fill" data-icon="star" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined fill" data-icon="star" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined fill" data-icon="star" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+</div>
+<p class="font-body-md text-body-md italic text-on-surface-variant mb-6">"The most comprehensive blood analysis I've ever received. Dr. Adil took the time to explain every detail of my lab work. Highly recommended."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center font-bold text-secondary">JM</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface">James Miller</p>
+<p class="text-xs text-on-surface-variant">Referring Physician</p>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="glass-card p-8 rounded-3xl">
+<div class="flex gap-1 text-primary mb-4">
+<span class="material-symbols-outlined fill" data-icon="star" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined fill" data-icon="star" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined fill" data-icon="star" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined fill" data-icon="star" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined fill" data-icon="star" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+</div>
+<p class="font-body-md text-body-md italic text-on-surface-variant mb-6">"Exceptional care for my son's coagulation disorder. We felt completely confident in Dr. Adil's hands. He is a true specialist."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center font-bold text-primary">RT</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface">Robert Tan</p>
+<p class="text-xs text-on-surface-variant">Parent of Patient</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA / Availability -->
+<section class="py-stack-lg max-w-[1200px] mx-auto px-container-padding-desktop" id="availability">
+<div class="relative overflow-hidden glass-card rounded-[3rem] p-12 md:p-24 text-center space-y-8 border-2 border-primary/10">
+<div class="absolute -top-24 -left-24 w-64 h-64 bg-primary/20 blur-[100px]"></div>
+<div class="absolute -bottom-24 -right-24 w-64 h-64 bg-secondary/20 blur-[100px]"></div>
+<h2 class="font-display-lg text-display-lg-mobile md:text-display-lg text-on-surface">Secure Your <span class="text-primary neon-glow">Priority Consultation</span></h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Dr. Adil currently has limited availability for new patient assessments. Register your interest for an immediate diagnostic review.</p>
+<div class="flex flex-col md:flex-row items-center justify-center gap-6 pt-8">
+<div class="glass-card px-8 py-4 rounded-2xl flex items-center gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="schedule">schedule</span>
+<div class="text-left">
+<p class="font-label-md text-label-md">Next Open Slot</p>
+<p class="font-headline-sm text-headline-sm text-on-surface">Tomorrow, 10:00 AM</p>
+</div>
+</div>
+<button class="bg-primary text-on-primary px-12 py-5 rounded-2xl font-headline-sm text-headline-sm shadow-[0_10px_40px_rgba(110,229,145,0.3)] hover:scale-105 active:scale-95 transition-all">
+                        Book Appointment Now
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-low dark:bg-inverse-surface w-full py-stack-lg border-t border-outline-variant/10">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-stack-md px-container-padding-desktop max-w-[1200px] mx-auto">
+<div class="space-y-4">
+<div class="font-headline-md text-headline-md font-bold text-on-surface dark:text-inverse-on-surface">DocEdge</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant dark:text-surface-variant opacity-80">Advanced Hematology Practice. Leading the way in blood condition management and diagnostic innovation.</p>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label-md text-label-md font-bold text-primary">Quick Links</h4>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-inverse-primary transition-colors font-body-sm text-body-sm" href="#">Home</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-inverse-primary transition-colors font-body-sm text-body-sm" href="#specialties">Specialties</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-inverse-primary transition-colors font-body-sm text-body-sm" href="#about">About Dr. Adil</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label-md text-label-md font-bold text-primary">Legal &amp; Contact</h4>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-inverse-primary transition-colors font-body-sm text-body-sm" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-inverse-primary transition-colors font-body-sm text-body-sm" href="#">Terms of Service</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-inverse-primary transition-colors font-body-sm text-body-sm" href="#">Contact Us</a>
+</div>
+</div>
+<div class="max-w-[1200px] mx-auto px-container-padding-desktop mt-16 pt-8 border-t border-outline-variant/20 text-center">
+<p class="font-body-sm text-body-sm text-on-surface-variant dark:text-surface-variant opacity-60">
+                © 2024 DocEdge. All rights reserved. Dr. Muhammad Adil Yaseen - Hematology Specialist.
+            </p>
+</div>
+</footer>
+<script>
+        // Smooth scroll for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Simple parallax effect for hero image
+        window.addEventListener('scroll', function() {
+            const scroll = window.pageYOffset;
+            const heroImg = document.querySelector('.hero-mesh img');
+            if (heroImg) {
+                heroImg.style.transform = `translateY(${scroll * 0.4}px)`;
+            }
+        });
+    </script>
+
+
+</body></html>
